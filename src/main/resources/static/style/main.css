@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+section {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.header-top {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .title {
+    color: #3f3f3f;
+    font-size: 1.5rem;
+    font-weight:400
+}
+
+/* 검색하기 스타일 */
+.search {
+    height: 60px;
+    background-color: #E8F6EF;
+}
+
+.search-box {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-text {
+    height: 37px;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid #0F52BA;
+}
+
+.fa-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 1.2rem;
+    background-color: #0F52BA;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+}
+
+/* 메뉴스타일 */
+nav {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0F52BA;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.login-box {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    list-style: none;
+}
+
+.login-box li {
+    margin: 10px 10px;
+}
+
+.id-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 서류발급 */
+.call {
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px 0;
+    text-align: center;
+    color: #0F52BA;
+    background-color: #96BAFF;
+    border-radius: 5px;
+}
+
+footer {
+    font-weight: normal;
+    line-height: 1.4;
+    color: #333;
+    letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #ecf1f7;
+    text-align: center;
+    font-size: .9rem;
+    padding: 10px 0;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.footer-infor {
+    padding: 0 10px;
+}
+
+/* 공통 */
+.btn {
+    cursor: pointer;
+}
+
+.line {
+    height: 10px;
+    background-color: #EEEEEE;
+}
