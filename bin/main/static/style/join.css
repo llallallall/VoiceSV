@@ -1,0 +1,56 @@
+.c-row {
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.c-row label {
+    width: 150px;
+}
+
+.c-row-input {
+    width: 70%;
+}
+
+.id-num {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.id-num p {
+    margin: 0 3px;
+}
+
+.tel-num {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.tel-num input:first-child {
+    width: 30%;
+}
+
+.tel-num p {
+    margin: 0 3px;
+}
+
+.tel-num input {
+    width: 40%;
+}
+
+.tel-num input:first-child {
+    width: 50px;
+}
+
+.form-check {
+    width: 80%;
+    margin: 0 auto;
+    font-size: .9rem;
+}
+
+
+
