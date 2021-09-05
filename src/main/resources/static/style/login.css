@@ -1,0 +1,13 @@
+.form-signin {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.form-signin form {
+    margin-top: 20px;
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
