@@ -7,9 +7,6 @@
 body {
     height: 100vh;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 a {
@@ -133,6 +130,12 @@ nav ul {
     justify-content: space-between;
 }
 
+/* ** 즐겨찿는 서비스 */
+.frequent-service h4 {
+    color: #000;
+    margin-top: 10px;
+}
+
 /* 서류발급 */
 .call {
     width: 100%;
@@ -163,11 +166,14 @@ footer {
     padding: 0 15px;
 }
 
+/* 발급서류 보기 */
+
+/* **사이트 정보 */
 .footer-infor {
     padding: 0 10px;
 }
 
-/* 공통 */
+/* **공통 */
 .btn {
     cursor: pointer;
 }
