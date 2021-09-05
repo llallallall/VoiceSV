@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WebController {
 	
 	
-	@GetMapping("/")
+	@GetMapping("/voice")
 	public String index(Model model) throws Exception {
 		model.addAttribute("greeting", "Hello Thymeleaf!");
 		return "work-gid/voice";
 	}
 	
-	@GetMapping("/main")
+	@GetMapping("/")
 	public String main(Model model) throws Exception {
 		model.addAttribute("greeting", "Hello Thymeleaf!");
 		return "work-gid/main";
